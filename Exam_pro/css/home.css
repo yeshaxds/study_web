@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(31, 10, 227);
+    /* padding: 0 auto; */
+    margin: 0 auto;
+    color: #e2e6c1;
+}
+
+h1 {
+    height: 12rem;
+    border: 1px solid #3ae49d;
+    color: #3ae49d;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 10rem;
+    text-align: center;
+    font-weight: bold;
+}
+/* #是id选择器 */
+/* .是class选择器 */
+.name {
+    width: 100px;
+    height: 50px;
+    color: #f84200;
+    font-size: 2rem;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 900px;
+    /* padding-left: 900px; */
+    font-weight: bold;
+    border: 1px solid #f84200;
+}
+
+.name:hover {
+    color: #a0d309;
+    font-size: 2.5rem;
+    transition: all 0.5s ease-in-out;
+}
+
+.container {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    background-color: #85e15d;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.5)
+}
+
